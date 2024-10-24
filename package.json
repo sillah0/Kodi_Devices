@@ -1,0 +1,11 @@
+{
+    "name": "ecommerce-project",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "concurrently \"npm run start --prefix Kodi-backend\" \"npm run start --prefix ecommerce-frontend\""
+    },
+    "devDependencies": {
+      "concurrently": "^7.0.0"
+    }
+  }
+  
